@@ -3,7 +3,7 @@ use structopt::StructOpt;
 
 #[derive(StructOpt)]
 struct Options {
-    times: Option<u16>,
+    times: Option<u32>,
 }
 
 fn main() {
